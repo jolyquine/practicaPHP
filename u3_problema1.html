@@ -1,0 +1,62 @@
+<html>
+<head>
+<center> <strong><tittle> Registro De Usuario </title></strong> </center>
+<meta charset="utf-8/">
+
+</head>
+  <body>
+    <br>
+      <table align="center">
+      <form name="formulario" method="POST" ACTION="u3_problema2.php">
+    <tr>
+      <td>
+        <strong>Nombre:</strong>
+        <input type="text" name="nombre" value ="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Apellido:</strong>
+        <input type="text" name="apellido" value="">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong> Sexo:</strong>
+        <input type="radio" name="genero" value="hombre"> Hombre
+        <input type="radio" name="genero" value="mujer"> Mujer
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Ocupacion:</strong>
+        <select name="ocupacion">
+          <option value ="profesor">Profesor</option>
+          <option value ="bombero">Bombero</option>
+          <option value ="policia">Policia</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>  Deportes que Practica: </strong>
+        <input type="checkbox" name="deporte[]" value="futbol"> Futbol
+        <input type="checkbox" name="deporte[]" value="beisbol"> Beisbol
+        <input type="checkbox" name="deporte[]" value="Basquetbol"> Basquetbol
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong> Comentarios: </storng>
+        <textarea  placeholder="Ingrese aqui los datos que considere necesarios para culminar el registro" name = "comentarios"rows="5" cols="20" value ="">
+        </textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" value="Guardar">
+      </td>
+    </tr>
+      </table>
+    </body>
+</html>
